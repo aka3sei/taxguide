@@ -3,7 +3,7 @@ import streamlit as st
 # ページ設定
 st.set_page_config(page_title="不動産税金・完全攻略ガイド", layout="wide")
 
-st.title("⚖️ 不動産税金マスター・プロフェッショナルガイド")
+st.title("⚖️ 不動産税金ガイド")
 st.write("複雑な税率をフェーズごとに整理。実務で役立つ正確な知識を網羅。")
 
 # タブでフェーズを分ける
@@ -112,4 +112,5 @@ with tab3:
     """)
 
 st.divider()
+
 st.caption("※本アプリの税率は令和5年度現在のものです。実際の申告に際しては税理士や税務署にご確認ください。")
